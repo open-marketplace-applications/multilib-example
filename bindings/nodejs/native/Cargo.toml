@@ -1,0 +1,19 @@
+[package]
+name = "multilib-example-nodejs-binding"
+version = "0.0.1"
+authors = [""]
+license = "MIT"
+build = "build.rs"
+edition = "2018"
+exclude = ["artifacts.json", "index.node"]
+
+[lib]
+name = "node_binding"
+crate-type = ["cdylib"]
+
+[build-dependencies]
+neon-build = "0.7.0"
+
+[dependencies]
+neon = "0.7.0"
+multilib-example = { path = "../../../", version = "0.0.1" }
