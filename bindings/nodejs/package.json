@@ -1,6 +1,6 @@
 {
     "name": "@open-marketplace-applications/multilib-example",
-    "version": "0.0.1",
+    "version": "0.0.2",
     "description": "Node.js binding for the multilib-example",
     "main": "lib/index.js",
     "repository": {
