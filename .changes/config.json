@@ -98,11 +98,6 @@
                     "pipe": true
                 },
                 {
-                    "command": "echo \"\\`\\`\\`\n\n</details>\n\"",
-                    "dryRunCommand": true,
-                    "pipe": true
-                },
-                {
                     "command": "neon build --release",
                     "dryRunCommand": true
                 },
