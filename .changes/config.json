@@ -140,10 +140,11 @@
             ]
         }
     },
-    "multilib-example-nodejs": {
-        "path": "./bindings/nodejs",
-        "manager": "javascript",
-        "dependencies": []
+    "packages": {
+        "multilib-example-nodejs": {
+            "path": "./bindings/nodejs",
+            "manager": "javascript",
+            "dependencies": []
+        }
     }
-}
 }
