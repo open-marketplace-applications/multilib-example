@@ -1,9 +1,9 @@
+# Multi Library Example -Node.JS
 
-
-Node.JS Bindings made with [neon](https://neon-bindings.com/).
-
+Node.JS Bindings are made with [neon](https://neon-bindings.com/).
 
 ```
+cd bindings/nodejs
 npm install
 ```
 
