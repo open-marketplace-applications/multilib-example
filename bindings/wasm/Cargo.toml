@@ -1,0 +1,22 @@
+[package]
+name = "multilib-example-wasm"
+version = "0.0.1"
+authors = ["huhn"]
+edition = "2018"
+repository = "https://github.com/open-marketplace-applications/multilib-example"
+description = "WASM bindings for Multi Library Example"
+homepage = "https://github.com/open-marketplace-applications/multilib-example"
+license = "MIT"
+
+[lib]
+crate-type = ["cdylib"]
+
+[dependencies]
+console_error_panic_hook = "0.1"
+wasm-bindgen = { version = "0.2", features = ["serde-serialize"] }
+
+# our library
+multilib-example = { path = "../../", version = "0.0.1" }
+
+[package.metadata.wasm-pack.profile.release]
+wasm-opt = false
